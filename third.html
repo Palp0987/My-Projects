@@ -1,0 +1,555 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>FlavorVerse</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="third.css" />
+  </head>
+  <body>
+    <header class="header">
+      <div class="navbar-first">
+        <a href="#">
+          <img class="logo" src="Logo/image 5.png" alt="Logo Image" />
+        </a>
+        <nav class="main-nav">
+          <ul class="main-nav-list">
+            <li><a class="main-nav-link" href="index.html">HOME</a></li>
+            <li><a class="main-nav-link" href="#">FEATURES</a></li>
+            <li><a class="main-nav-link" href="#">ABOUT US</a></li>
+            <li>
+              <a class="main-nav-link nav-cta" href="#">GET THE MAGAZINE</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+
+      <div class="dropdowns">
+        <div class="dropdown">
+          <button class="dropdown-button">
+            <span>DINNERS</span>
+            <i class="bi bi-chevron-down"></i>
+          </button>
+          <div class="dropdown-menu">
+            <button>5-Ingredient Dinners</button>
+            <button>One-Pot Meals</button>
+            <button>Quick & Easy</button>
+            <button>30-Minute Meals</button>
+            <button>Soups, Stews & Chili</button>
+            <button>Comfort Food</button>
+            <button>Main Dishes</button>
+            <button>Sheet Pan Dinners</button>
+            <button>VIEW ALL</button>
+          </div>
+        </div>
+
+        <div class="dropdown">
+          <button class="dropdown-button">
+            <span>MEALS</span>
+            <i class="bi bi-chevron-down"></i>
+          </button>
+          <div class="dropdown-menu">
+            <button>Breakfast & Brunch</button>
+            <button>Lunch</button>
+            <button>Healthy</button>
+            <button>Appetizers & Snacks</button>
+            <button>Salads</button>
+            <button>Side Dishes</button>
+            <button>Soups</button>
+            <button>Bread</button>
+            <button>Drinks</button>
+            <button>Desserts</button>
+            <button>VIEW ALL</button>
+          </div>
+        </div>
+
+        <div class="dropdown">
+          <button class="dropdown-button">
+            <span>INGREDIENTS</span>
+            <i class="bi bi-chevron-down"></i>
+          </button>
+          <div class="dropdown-menu">
+            <button>Seafood</button>
+            <button>Pasta</button>
+            <button>Fruits</button>
+            <button>Vegetables</button>
+            <button>VIEW ALL</button>
+          </div>
+        </div>
+
+        <div class="dropdown">
+          <button class="dropdown-button">
+            <span>OCCASIONS</span>
+            <i class="bi bi-chevron-down"></i>
+          </button>
+          <div class="dropdown-menu">
+            <button>Summer Recipes</button>
+            <button>Labor Day</button>
+            <button>Back to School Recipes</button>
+            <button>VIEW ALL</button>
+          </div>
+        </div>
+
+        <div class="dropdown">
+          <button class="dropdown-button">
+            <span>CUISINES</span>
+            <i class="bi bi-chevron-down"></i>
+          </button>
+          <div class="dropdown-menu">
+            <button>CUISINES</button>
+            <button>Mexican</button>
+            <button>Italian</button>
+            <button>Chinese</button>
+            <button>Indian</button>
+            <button>German</button>
+            <button>Greek</button>
+            <button>Filipino</button>
+            <button>Japanese</button>
+            <button>VIEW ALL</button>
+          </div>
+        </div>
+
+        <div class="dropdown">
+          <button class="dropdown-button">
+            <span>KITCHEN TIPS</span>
+            <i class="bi bi-chevron-down"></i>
+          </button>
+          <div class="dropdown-menu">
+            <button>Instant Pot</button>
+            <button>Air Fryer</button>
+            <button>Slow Cooker</button>
+            <button>Product Reviews</button>
+            <button>BBQ & Grilling</button>
+            <button>Cookware & Equipment</button>
+            <button>Ingredient Substitutions</button>
+            <button>VIEW ALL</button>
+          </div>
+        </div>
+
+        <form action="#" class="search-bar">
+          <input type="text" placeholder="Search Recipe....." name="search" />
+          <button type="Submit">
+            <img
+              src="https://icons.veryicon.com/png/o/miscellaneous/prototyping-tool/search-bar-01.png"
+              alt="search image"
+            />
+          </button>
+        </form>
+      </div>
+    </header>
+    <hr />
+
+    <main>
+      <section class="section-recipes">
+        <div class="container center-text">
+          <span class="subheading">Recipes</span>
+          <h2 class="heading-secondary">
+            FlavorVerse Provides you 2,500+ recipes
+          </h2>
+        </div>
+
+        <div class="container grid grid--3-cols margin-bottom-md">
+          <div class="meal">
+            <img
+              src="https://t4.ftcdn.net/jpg/03/50/25/05/360_F_350250570_EqclcN4CpkeiD7BvflaSxaMwpJ7b7PNC.jpg"
+              class="meal-img"
+              alt="Japanese Gyozas"
+            />
+            <div class="meal-content">
+              <div class="meal-tags">
+                <span class="tag tag--vegetarian">Vegetarian</span>
+              </div>
+              <p class="meal-title">
+                <a
+                  href="recipes/choleBhature.html"
+                  target="_blank"
+                  class="recipe-methods"
+                  >Chole Bhature</a
+                >
+              </p>
+              <ul class="meal-attributes">
+                <li class="meal-attribute">
+                  <ion-icon class="meal-icon" name="flame-outline"></ion-icon>
+                  <span><strong>250</strong> calories</span>
+                </li>
+                <li class="meal-attribute">
+                  <ion-icon
+                    class="meal-icon"
+                    name="restaurant-outline"
+                  ></ion-icon>
+                  <span>NutriScore &reg; <strong>96</strong></span>
+                </li>
+                <li class="meal-attribute">
+                  <ion-icon class="meal-icon" name="star-outline"></ion-icon>
+                  <span><strong>4.9</strong> rating (537)</span>
+                </li>
+
+                <li class="read">
+                  <a href="recipes/choleBhature.html">Read More &rarr;</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="meal">
+            <img
+              src="https://www.sanjanafeasts.co.uk/wp-content/uploads/2018/05/Creamy-Restaurant-Style-Matar-Paneer-1.jpg"
+              class="meal-img"
+              alt="Avocado Salad"
+            />
+            <div class="meal-content">
+              <div class="meal-tags">
+                <span class="tag tag--vegetarian">Vegetarian</span>
+              </div>
+              <p class="meal-title">
+                <a
+                  href="recipes/matarPaneer.html"
+                  target="_blank"
+                  class="recipe-methods"
+                  >Matar Paneer</a
+                >
+              </p>
+              <ul class="meal-attributes">
+                <li class="meal-attribute">
+                  <ion-icon class="meal-icon" name="flame-outline"></ion-icon>
+                  <span><strong>550</strong> calories</span>
+                </li>
+                <li class="meal-attribute">
+                  <ion-icon
+                    class="meal-icon"
+                    name="restaurant-outline"
+                  ></ion-icon>
+                  <span>NutriScore &reg; <strong>92</strong></span>
+                </li>
+                <li class="meal-attribute">
+                  <ion-icon class="meal-icon" name="star-outline"></ion-icon>
+                  <span><strong>4.8</strong> rating (441)</span>
+                </li>
+
+                <li class="read">
+                  <a href="recipes/matarPaneer.html">Read More &rarr;</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="meal">
+            <img
+              src="https://static.wixstatic.com/media/91e241_0cf76aa5613b4055be2f922f71edeaa0~mv2.jpg/v1/fill/w_560,h_372,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/Ustaadi%20Hyderabadi%20Veg%20Biryani.jpg"
+              class="meal-img"
+              alt="Avocado Salad"
+            />
+            <div class="meal-content">
+              <div class="meal-tags">
+                <span class="tag tag--vegetarian">Vegetarian</span>
+              </div>
+              <p class="meal-title">
+                <a
+                  href="recipes/biryani.html"
+                  target="_blank"
+                  class="recipe-methods"
+                  >Veg Biryani</a
+                >
+              </p>
+              <ul class="meal-attributes">
+                <li class="meal-attribute">
+                  <ion-icon class="meal-icon" name="flame-outline"></ion-icon>
+                  <span><strong>200</strong> calories</span>
+                </li>
+                <li class="meal-attribute">
+                  <ion-icon
+                    class="meal-icon"
+                    name="restaurant-outline"
+                  ></ion-icon>
+                  <span>NutriScore &reg; <strong>94</strong></span>
+                </li>
+                <li class="meal-attribute">
+                  <ion-icon class="meal-icon" name="star-outline"></ion-icon>
+                  <span><strong>4.8</strong> rating (561)</span>
+                </li>
+
+                <li class="read">
+                  <a href="recipes/biryani.html">Read More &rarr;</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="meal">
+            <img
+              src="data:image/jpeg;base64,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"
+              class="meal-img"
+              alt="Avocado Salad"
+            />
+            <div class="meal-content">
+              <div class="meal-tags">
+                <span class="tag tag--vegetarian">Vegetarian</span>
+              </div>
+              <p class="meal-title">
+                <a
+                  href="recipes/mashala Dosa.html"
+                  target="_blank"
+                  class="recipe-methods"
+                  >Masala Dosa</a
+                >
+              </p>
+              <ul class="meal-attributes">
+                <li class="meal-attribute">
+                  <ion-icon class="meal-icon" name="flame-outline"></ion-icon>
+                  <span><strong>500</strong> calories</span>
+                </li>
+                <li class="meal-attribute">
+                  <ion-icon
+                    class="meal-icon"
+                    name="restaurant-outline"
+                  ></ion-icon>
+                  <span>NutriScore &reg; <strong>96</strong></span>
+                </li>
+                <li class="meal-attribute">
+                  <ion-icon class="meal-icon" name="star-outline"></ion-icon>
+                  <span><strong>5.0</strong> rating (401)</span>
+                </li>
+
+                <li class="read">
+                  <a href="recipes/mashala Dosa.html">Read More &rarr;</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="meal">
+            <img
+              src="https://static.wixstatic.com/media/91e241_0cf76aa5613b4055be2f922f71edeaa0~mv2.jpg/v1/fill/w_560,h_372,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/Ustaadi%20Hyderabadi%20Veg%20Biryani.jpg"
+              class="meal-img"
+              alt="Avocado Salad"
+            />
+            <div class="meal-content">
+              <div class="meal-tags">
+                <span class="tag tag--vegetarian">Vegetarian</span>
+              </div>
+              <p class="meal-title">Veg Biryani</p>
+              <ul class="meal-attributes">
+                <li class="meal-attribute">
+                  <ion-icon class="meal-icon" name="flame-outline"></ion-icon>
+                  <span><strong>200</strong> calories</span>
+                </li>
+                <li class="meal-attribute">
+                  <ion-icon
+                    class="meal-icon"
+                    name="restaurant-outline"
+                  ></ion-icon>
+                  <span>NutriScore &reg; <strong>94</strong></span>
+                </li>
+                <li class="meal-attribute">
+                  <ion-icon class="meal-icon" name="star-outline"></ion-icon>
+                  <span><strong>4.8</strong> rating (441)</span>
+                </li>
+                <li class="read">
+                  <a href="#">Read More &rarr;</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="meal">
+            <img
+              src="https://static.wixstatic.com/media/91e241_0cf76aa5613b4055be2f922f71edeaa0~mv2.jpg/v1/fill/w_560,h_372,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/Ustaadi%20Hyderabadi%20Veg%20Biryani.jpg"
+              class="meal-img"
+              alt="Avocado Salad"
+            />
+            <div class="meal-content">
+              <div class="meal-tags">
+                <span class="tag tag--vegetarian">Vegetarian</span>
+              </div>
+              <p class="meal-title">Veg Biryani</p>
+              <ul class="meal-attributes">
+                <li class="meal-attribute">
+                  <ion-icon class="meal-icon" name="flame-outline"></ion-icon>
+                  <span><strong>200</strong> calories</span>
+                </li>
+                <li class="meal-attribute">
+                  <ion-icon
+                    class="meal-icon"
+                    name="restaurant-outline"
+                  ></ion-icon>
+                  <span>NutriScore &reg; <strong>94</strong></span>
+                </li>
+                <li class="meal-attribute">
+                  <ion-icon class="meal-icon" name="star-outline"></ion-icon>
+                  <span><strong>4.8</strong> rating (441)</span>
+                </li>
+                <li class="read">
+                  <a href="#">Read More &rarr;</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="meal">
+            <img
+              src="https://static.wixstatic.com/media/91e241_0cf76aa5613b4055be2f922f71edeaa0~mv2.jpg/v1/fill/w_560,h_372,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/Ustaadi%20Hyderabadi%20Veg%20Biryani.jpg"
+              class="meal-img"
+              alt="Avocado Salad"
+            />
+            <div class="meal-content">
+              <div class="meal-tags">
+                <span class="tag tag--vegetarian">Vegetarian</span>
+              </div>
+              <p class="meal-title">Veg Biryani</p>
+              <ul class="meal-attributes">
+                <li class="meal-attribute">
+                  <ion-icon class="meal-icon" name="flame-outline"></ion-icon>
+                  <span><strong>200</strong> calories</span>
+                </li>
+                <li class="meal-attribute">
+                  <ion-icon
+                    class="meal-icon"
+                    name="restaurant-outline"
+                  ></ion-icon>
+                  <span>NutriScore &reg; <strong>94</strong></span>
+                </li>
+                <li class="meal-attribute">
+                  <ion-icon class="meal-icon" name="star-outline"></ion-icon>
+                  <span><strong>4.8</strong> rating (441)</span>
+                </li>
+                <li class="read">
+                  <a href="#">Read More &rarr;</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="meal">
+            <img
+              src="https://static.wixstatic.com/media/91e241_0cf76aa5613b4055be2f922f71edeaa0~mv2.jpg/v1/fill/w_560,h_372,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/Ustaadi%20Hyderabadi%20Veg%20Biryani.jpg"
+              class="meal-img"
+              alt="Avocado Salad"
+            />
+            <div class="meal-content">
+              <div class="meal-tags">
+                <span class="tag tag--vegetarian">Vegetarian</span>
+              </div>
+              <p class="meal-title">Veg Biryani</p>
+              <ul class="meal-attributes">
+                <li class="meal-attribute">
+                  <ion-icon class="meal-icon" name="flame-outline"></ion-icon>
+                  <span><strong>200</strong> calories</span>
+                </li>
+                <li class="meal-attribute">
+                  <ion-icon
+                    class="meal-icon"
+                    name="restaurant-outline"
+                  ></ion-icon>
+                  <span>NutriScore &reg; <strong>94</strong></span>
+                </li>
+                <li class="meal-attribute">
+                  <ion-icon class="meal-icon" name="star-outline"></ion-icon>
+                  <span><strong>4.8</strong> rating (441)</span>
+                </li>
+                <li class="read">
+                  <a href="#">Read More &rarr;</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="meal">
+            <img
+              src="https://static.wixstatic.com/media/91e241_0cf76aa5613b4055be2f922f71edeaa0~mv2.jpg/v1/fill/w_560,h_372,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/Ustaadi%20Hyderabadi%20Veg%20Biryani.jpg"
+              class="meal-img"
+              alt="Avocado Salad"
+            />
+            <div class="meal-content">
+              <div class="meal-tags">
+                <span class="tag tag--vegetarian">Vegetarian</span>
+              </div>
+              <p class="meal-title">Veg Biryani</p>
+              <ul class="meal-attributes">
+                <li class="meal-attribute">
+                  <ion-icon class="meal-icon" name="flame-outline"></ion-icon>
+                  <span><strong>200</strong> calories</span>
+                </li>
+                <li class="meal-attribute">
+                  <ion-icon
+                    class="meal-icon"
+                    name="restaurant-outline"
+                  ></ion-icon>
+                  <span>NutriScore &reg; <strong>94</strong></span>
+                </li>
+                <li class="meal-attribute">
+                  <ion-icon class="meal-icon" name="star-outline"></ion-icon>
+                  <span><strong>4.8</strong> rating (441)</span>
+                </li>
+                <li class="read">
+                  <a href="#">Read More &rarr;</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="container grid grid--footer">
+        <div class="logo-col">
+          <a href="#" class="footer-logo">
+            <img class="logo" alt="Omnifood logo" src="Logo/image 4.png" />
+          </a>
+
+          <p class="copyright">
+            Copyright &copy; 2027 by FlavorVerse, Inc. All rights reserved.
+          </p>
+        </div>
+        <div class="address-col">
+          <p class="footer-heading">Contact us</p>
+          <address class="contacts">
+            <p class="address">
+              'A' Block, Indira Nagar, Lucknow, Uttar Pradesh.
+            </p>
+            <p>
+              <a class="footer-link" href="tel:415-201-6370">+91 7896541236</a
+              ><br />
+              <a class="footer-link" href="mailto:hello@omnifood.com"
+                >hello@FlavorVerse.com</a
+              >
+            </p>
+          </address>
+        </div>
+        <nav class="nav-col">
+          <p class="footer-heading">Account</p>
+          <ul class="footer-nav">
+            <li><a class="footer-link" href="#">Create account</a></li>
+            <li><a class="footer-link" href="#">Sign in</a></li>
+            <li><a class="footer-link" href="#">iOS app</a></li>
+            <li><a class="footer-link" href="#">Android app</a></li>
+          </ul>
+        </nav>
+
+        <nav class="nav-col">
+          <p class="footer-heading">Company</p>
+          <ul class="footer-nav">
+            <li><a class="footer-link" href="#">About FlavorVerse</a></li>
+            <li><a class="footer-link" href="#">For Business</a></li>
+            <li><a class="footer-link" href="#">Cooking partners</a></li>
+            <li><a class="footer-link" href="#">Careers</a></li>
+          </ul>
+        </nav>
+
+        <nav class="nav-col">
+          <p class="footer-heading">Resources</p>
+          <ul class="footer-nav">
+            <li><a class="footer-link" href="#">Recipe directory </a></li>
+            <li><a class="footer-link" href="#">Help center</a></li>
+            <li><a class="footer-link" href="#">Privacy & terms</a></li>
+          </ul>
+        </nav>
+      </div>
+    </footer>
+  </body>
+</html>
